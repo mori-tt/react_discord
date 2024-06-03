@@ -4,14 +4,14 @@ import AddIcon from "@mui/icons-material/Add";
 import SidebarChannel from "./SidebarChannel";
 import MicIcon from "@mui/icons-material/Mic";
 import HeadphonesIcon from "@mui/icons-material/Headphones";
-import { Settings } from "@mui/icons-material";
+import SettingsIcon from "@mui/icons-material/Settings";
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebarLeft">
         <div className="serverIcon">
-          <img src="../react.svg" alt="" />
+          <img src="../discordIcon.png" alt="" />
         </div>
         <div className="serverIcon">
           <img src="../vite.svg" alt="" />
@@ -51,7 +51,7 @@ const Sidebar = () => {
           <div className="sidebarVoice">
             <MicIcon />
             <HeadphonesIcon />
-            <Settings />
+            <SettingsIcon />
           </div>
         </div>
       </div>
